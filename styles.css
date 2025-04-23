@@ -5,11 +5,14 @@ body {
   
 .navbar {
   display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures it stays above other content */
   justify-content: space-between;
   align-items: center;
   background-color: white;
   color: black;
-  padding: 1rem 4rem;
+  padding: 2rem 4rem;
   font-family: Inter, semi-bold;
 }
 
@@ -26,11 +29,20 @@ body {
   font-size: 1rem;
   transition: color 0.3s;
   transition: background-color 0.3s;
-  padding: 0.5em 1em;
+  padding: 1em 1.5em;
   border-radius: 5px;
 }
 
 .nav-right a:hover {
   color: #111111;
   background-color: #eeeeee;
+}
+
+.page {
+  padding: 2rem 4rem;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  max-width: 1200px;
+  margin: auto;
 }
