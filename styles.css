@@ -12,14 +12,14 @@ body {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.8); /* Initial transparency */
   transition: background-color 0.3s ease; /* Smooth transition */
-  color: black;
+  color: var(--nav-color, black);
   padding: 2rem 4rem;
   font-family: Inter, semi-bold;
 }
 
 .navbar.scrolled {
-  background-color: rgba(0, 0, 0, 0.8); /* Darker background on scroll */
-  color: white; /* Adjust text color for contrast */
+  background-color: rgba(50, 50, 50, 0.8); /* Darker background on scroll */
+  --nav-color: white; /* Adjust text color for contrast */
 }
 
 .nav-left {
@@ -29,7 +29,7 @@ body {
 }
 
 .nav-right a {
-  color: black;
+  color: var(--nav-color, black);
   text-decoration: none;
   margin-left: 1.5rem;
   font-size: 1rem;
