@@ -1,7 +1,14 @@
-body {
+html, body {
   margin: 0;
   font-family: Arial, sans-serif;
+  height: 100%;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
   
 .navbar {
   display: flex;
@@ -50,7 +57,9 @@ body {
   justify-content: space-between;
   align-items: center; */
   max-width: 1200px;
+  min-width: 80%;
   margin: auto;
+  flex: 1;
 }
 
 .section {
@@ -175,4 +184,9 @@ body {
 .footer-icons a img:hover {
   transform: scale(1.15);
   opacity: 0.8;
+}
+
+img {
+  object-fit: cover; /* Ensures the image is cropped to fit the aspect ratio */
+  object-position: center; /* Centers the cropped area */
 }

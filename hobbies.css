@@ -1,0 +1,14 @@
+.nav-right a#hobbies{
+    color: white;
+    background-color: black;
+}
+
+.hobby img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.hobby {
+    max-width: 1000px;
+}
