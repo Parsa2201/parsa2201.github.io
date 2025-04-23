@@ -1,6 +1,6 @@
 .nav-right a#home{
     color: white;
-    background-color: black;
+    background-color: #003b63;
 }
 
 .title {
@@ -23,6 +23,7 @@
 .title-text h1 {
     font-family: Inter;
     font-weight: 200;
+    font-size: 4rem;
     margin: 1rm;
 }
 
@@ -42,11 +43,10 @@
 }
 
 .title-image {
-    max-width: 400px;
+    max-width: 600px;
     border-radius: 50%;
     height: auto;
     aspect-ratio: 1 / 1;
-    
 }
 
 .email {
@@ -70,3 +70,12 @@
     color: blue;
     transform: translateX(2px);
 }
+
+/* About Me Section */
+.about-me {
+    /* background-color: #b9dbe4; */
+    padding: 2rem;
+    border-radius: 8px;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); Soft shadow */
+    margin-bottom: 3rem;
+  }
