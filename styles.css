@@ -81,3 +81,42 @@ body {
   color: #222;
   text-align: justify;
 }
+
+.project {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto; /* Center-align projects */
+  margin-right: auto; /* Center-align projects */
+  max-width: 600px; /* Optional: Limit the width of the project container */
+}
+
+.project img {
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+}
+
+.project-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.project-text h3 {
+  margin-bottom: 0;
+  font-family: Inter, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.project-text p {
+  margin: 0.25rem 0 0 0;
+  font-family: 'BIZ UDPGothic', sans-serif;
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.5;
+}
