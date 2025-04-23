@@ -46,3 +46,38 @@ body {
   max-width: 1200px;
   margin: auto;
 }
+
+.section {
+  padding: 4rem;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-family: 'BIZ UDPGothic', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.section h2::before,
+.section h2::after {
+  content: "";
+  flex: 1;
+  height: 3px;
+  background: #333;
+}
+
+.section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-family: 'BIZ UDPGothic', sans-serif;
+  color: #222;
+  text-align: justify;
+}
