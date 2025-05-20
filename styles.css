@@ -71,7 +71,7 @@ body {
   margin: 0 auto;
 }
 
-.section h2 {
+.section h2.section-header {
   font-family: 'BIZ UDPGothic', sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -83,8 +83,20 @@ body {
   position: relative;
 }
 
-.section h2::before,
-.section h2::after {
+.section h1.section-header {
+  font-family: 'BIZ UDPGothic', sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.section .section-header::before,
+.section .section-header::after {
   content: "";
   flex: 1;
   height: 3px;
