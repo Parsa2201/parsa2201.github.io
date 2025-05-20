@@ -161,6 +161,7 @@ body {
   gap: 0.5rem;
 }
 
+.section-item-text h2,
 .section-item-text h3 {
   margin-bottom: 0;
   font-family: Inter, sans-serif;
