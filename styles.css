@@ -211,3 +211,18 @@ img {
   object-fit: cover; /* Ensures the image is cropped to fit the aspect ratio */
   object-position: center; /* Centers the cropped area */
 }
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
